@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
     <meta charset="UTF-8">
@@ -8,10 +9,23 @@
     <style>
         html,
         body {
-            margin: 0;
-            padding: 0;
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 14px;
+        }
+
+        * {
+            -ms-text-size-adjust: 100%; /* Stop Outlook from adding extra spacing to tables. */
+        }
+        table, td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+        img {
+              -ms-interpolation-mode:bicubic;
         }
 
         a {
@@ -22,20 +36,7 @@
             text-decoration: none;
         }
 
-        #register-btn {
-            width: 220px;
-            height: 40px;
-            border-radius: 50px;
-            color: #ffffff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #FC9980;
-            float: right;
-            margin-top: 40px;
-        }
-
-        #banner {
+       #banner {
             background-image: url('./assets/banner@2x.png');
             background-repeat: no-repeat;
             background-size: cover;
@@ -68,11 +69,7 @@
         }
 
         .body-text {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            line-height: 24px;
-            color: #6d6d6d;
-            margin-left: 36px;
+
         }
 
         .body-text-heading {
@@ -84,13 +81,7 @@
         }
 
         #reg-cta {
-            width: 320px;
-            height: 55px;
-            border-radius: 50px;
-            color: #ffffff;
-            padding-top: 13px;
-            background-color: #FC9980;
-            font-size: 18px;
+
         }
 
         #reg-cta-last {
@@ -179,35 +170,38 @@
             float: left;
             border-bottom-right-radius: 20px;
         }
+        .grid-img {
+            background-image: url('./assets/Brown-sugar@2x.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 220px;
+            height: 180px;
+        }
     </style>
 </head>
 
-<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0"
-    style="-webkit-text-size-adjust: none;margin: 0;padding: 0;background-color: #FAFAFA;width: 100%;">
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; -webkit-text-size-adjust: none;margin: 0;padding: 0;background-color: #FAFAFA;width: 100%;">
     <center>
         <table border="0" cellpadding="0" cellspacing="0" height="100%" id="backgroundTable"
             style="margin: 0;padding: 0;background-color: #fefefe;height: 100%;width: 100%;" width="100%">
             <tbody>
                 <tr>
                     <td align="center" style="border-collapse: collapse;" valign="top">
-                        <table border="0" cellpadding="10" cellspacing="0" id="templatePreheader"
+                        <table border="0" cellpadding="0" cellspacing="0" id="templatePreheader"
                             style="background-color: #fefefe;" width="520">
                             <tbody>
                                 <tr>
                                     <td class="preheaderContent" style="border-collapse: collapse;" valign="top">
                                         <!-- Header -->
-                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tbody>
                                                 <tr>
                                                     <td style="border-collapse: collapse;" valign="top">
-                                                        <div id="logo">
-                                                            <img width="130px" src="./assets/logo.png"
-                                                                alt="FrieslandCampina Logo">
-                                                        </div>
+                                                        <img width="130" style="width: 100%; max-width: 130px; display: block;" src="./assets/logo.png" alt="FrieslandCampina Logo">
                                                     </td>
-                                                    <td>
+                                                    <td valign="top" style="border-radius: 50px;">
                                                         <a href="">
-                                                            <div id="register-btn">
+                                                            <div style="width: 220px;height: 40px;border-radius: 50px;color: #ffffff;display: flex;justify-content: center;align-items: center;background-color: #FC9980;float: right;margin-top: 40px;">
                                                                 Download Trend Report
                                                             </div>
                                                         </a>
@@ -219,9 +213,10 @@
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tbody>
                                                 <tr>
-                                                    <td>
+                                                    <td valign="top">
                                                         <p class="body-text-heading">Dear X</p>
-                                                        <p class="body-text">We’re delighted to send you a selection of
+                                                        <p style="font-family: Arial, Helvetica, sans-serif;font-size: 16px;line-height: 24px;color: #6d6d6d;margin-left: 36px;">
+                                                            We’re delighted to send you a selection of
                                                             recipes specially for your market. These are all
                                                             formulations you can take
                                                             straight to the lab for instantaneous success.
@@ -230,22 +225,22 @@
                                                             practice. And they are backed by consumer data for a
                                                             confident market launch. Just click on the button and make
                                                             your
-                                                            selection.</p>
+                                                            selection.
+                                                        </p>
                                                     </td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                         <!-- CTAs -->
-                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tbody>
                                                 <tr>
-                                                    <td>
+                                                    <td valign="top" width="100%">
                                                         <a href="">
                                                             <center>
                                                                 <a href="">
-                                                                    <div id="reg-cta">Download Trend Report <br /> <span
-                                                                            style="font-size: 12px;">or watch recorded
-                                                                            webinar</span></div>
+                                                                    <div style="width: 320px;height: 55px;border-radius: 50px;color: #ffffff;padding-top: 13px;background-color: #FC9980;font-size: 18px;">Download Trend Report <br /> 
+                                                                        <span style="font-size: 12px;">or watch recorded webinar</span></div>
                                                                 </a>
                                                             </center>
                                                         </a>
@@ -257,21 +252,21 @@
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tbody>
                                                 <tr>
-                                                    <td>
+                                                    <td valign="top">
                                                         <h3 style="color: #707070; margin-left: 36px;">Click for the
                                                             full formulation, and you can also access:</h3>
-                                                        <p class="body-text">We’ve lots in store for you when you
+                                                        <p style="font-family: Arial, Helvetica, sans-serif;font-size: 16px;line-height: 24px;color: #6d6d6d;margin-left: 36px;">We’ve lots in store for you when you
                                                             download the Trend Report. Unlock a treasure trove of
                                                             opportunities:</p>
                                                         <ul>
-                                                            <li><img width="15px" src="./assets/tick.png" alt="tick">
+                                                            <li><img width="15" style="width: 100%; max-width: 15px; display: block;" src="./assets/tick.png" alt="tick">
                                                                 <span>Market data in an easy graphic format – exploit
                                                                     the results of our proprietary research</span></li>
-                                                            <li><img width="15px" src="./assets/tick.png" alt="tick">
+                                                            <li><img width="15" style="width: 100%; max-width: 15px; display: block;" src="./assets/tick.png" alt="tick">
                                                                 <span>Our full range of supporting services – including
                                                                     ideation, prototyping, testing and refining</span>
                                                             </li>
-                                                            <li><img width="15px" src="./assets/tick.png" alt="tick">
+                                                            <li><img width="15" style="width: 100%; max-width: 15px; display: block;" src="./assets/tick.png" alt="tick">
                                                                 <span>A partner that feeds into your innovation
                                                                     pipeline</span></li>
                                                         </ul>
@@ -283,10 +278,10 @@
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tbody>
                                                 <tr>
-                                                    <td>
+                                                    <td valign="top">
                                                         <h3 style="color: #707070; margin-left: 36px;">Ready-to-go
                                                             recipes</h3>
-                                                        <p class="body-text">These tasty on-trend recipes have all been
+                                                        <p style="font-family: Arial, Helvetica, sans-serif;font-size: 16px;line-height: 24px;color: #6d6d6d;margin-left: 36px;">These tasty on-trend recipes have all been
                                                             tried, tested and tasted. So you can tap into instant
                                                             success and consumer
                                                             delight, with formulations designed just for you and your
@@ -298,24 +293,24 @@
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tbody>
                                                 <tr>
-                                                    <td>
+                                                    <td valign="top">
                                                         <h3 style="color: #707070; margin-left: 36px;">Discover the 2020
                                                             food & beverages micro trends</h3>
-                                                        <div class="img-4">
+                                                        <div class="img-4" style="margin-left: 35px;">
                                                             <div class="img-text">Nmae</div>
-                                                            <img src="./assets/callout.png" width="30px" alt="">
+                                                            <img src="./assets/callout.png" width="30" style="max-width: 30px; width: 100%; display: block;" alt="">
                                                         </div>
                                                         <div class="img-4">
                                                             <div class="img-text">Nmae</div>
-                                                            <img src="./assets/callout.png" width="30px" alt="">
+                                                            <img src="./assets/callout.png" width="30" style="max-width: 30px; width: 100%; display: block;" alt="">
                                                         </div>
                                                         <div class="img-4">
                                                             <div class="img-text">Nmae</div>
-                                                            <img src="./assets/callout.png" width="30px" alt="">
+                                                            <img src="./assets/callout.png" width="30" style="max-width: 30px; width: 100%; display: block;" alt="">
                                                         </div>
                                                         <div class="img-4">
                                                             <div class="img-text">Nmae</div>
-                                                            <img src="./assets/callout.png" width="30px" alt="">
+                                                            <img src="./assets/callout.png" width="30" style="max-width: 30px; width: 100%; display: block;" alt="">
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -325,7 +320,7 @@
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tbody>
                                                 <tr>
-                                                    <td>
+                                                    <td valign="top">
                                                         <h2 class="body-text-heading">The most popular 2021 micro trends
                                                         </h2>
                                                     </td>
@@ -336,34 +331,34 @@
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tbody>
                                                 <tr>
-                                                    <td>
-                                                        <p class="body-text">In-home brewing systems get a vegan boost
+                                                    <td valign="top">
+                                                        <p style="font-family: Arial, Helvetica, sans-serif;font-size: 16px;line-height: 24px;color: #6d6d6d;margin-left: 36px;">In-home brewing systems get a vegan boost
                                                             with this oaty version of your consumers’ favourite drink.
                                                             Perfectly
                                                             plant-based with full taste and texture.</p>
                                                     </td>
-                                                    <td>
-                                                        <div class="grid-img"></div>
+                                                    <td valign="top">
+                                                        <img src="./assets/Brown-sugar@2x.png" width="220" style="width: 100%; max-width: 220px; display: block;" alt="">
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>
-                                                        <div class="grid-img"></div>
+                                                    <td valign="top">
+                                                        <img src="./assets/Brown-sugar@2x.png" width="260" style="width: 100%; max-width: 260px; display: block;" alt="">
                                                     </td>
-                                                    <td>
-                                                        <p class="body-text">In-home brewing systems get a vegan boost
+                                                    <td valign="top">
+                                                        <p style="font-family: Arial, Helvetica, sans-serif;font-size: 16px;line-height: 24px;color: #6d6d6d;margin-left: 36px;">In-home brewing systems get a vegan boost
                                                             with this oaty version of your consumers’ favourite drink.
                                                             Perfectly plant-based with full taste and texture.</p>
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>
-                                                        <p class="body-text">In-home brewing systems get a vegan boost
+                                                    <td valign="top">
+                                                        <p style="font-family: Arial, Helvetica, sans-serif;font-size: 16px;line-height: 24px;color: #6d6d6d;margin-left: 36px;">In-home brewing systems get a vegan boost
                                                             with this oaty version of your consumers’ favourite drink.
                                                             Perfectly plant-based with full taste and texture.</p>
                                                     </td>
-                                                    <td>
-                                                        <div class="grid-img"></div>
+                                                    <td valign="top">
+                                                        <img src="./assets/Brown-sugar@2x.png" width="220" style="width: 100%; max-width: 220px; display: block;" alt="">
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -372,15 +367,15 @@
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tbody>
                                                 <tr>
-                                                    <td>
+                                                    <td valign="top">
                                                         <h2 class="body-text-heading">Market data for a confident launch
                                                         </h2>
-                                                        <p class="body-text">
+                                                        <p style="font-family: Arial, Helvetica, sans-serif;font-size: 16px;line-height: 24px;color: #6d6d6d;margin-left: 36px;">
                                                             Developing a new product from scratch is time-consuming and
                                                             costly. And you want to be sure there’s a ready market for
                                                             your new product before you commit.
                                                         </p>
-                                                        <p class="body-text">
+                                                        <p style="font-family: Arial, Helvetica, sans-serif;font-size: 16px;line-height: 24px;color: #6d6d6d;margin-left: 36px;">
                                                             We can help you to come up with new concepts, but also
                                                             conduct in-depth research and arrange sensory and consumer
                                                             panels. Tap into our wealth of market data to back up the
@@ -392,10 +387,10 @@
                                             </tbody>
                                         </table>
                                         <!-- CTAs -->
-                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tbody>
                                                 <tr>
-                                                    <td>
+                                                    <td valign="top">
                                                         <a href="">
                                                             <center>
                                                                 <a href="">
